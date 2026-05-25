@@ -1,0 +1,41 @@
+GitHub仓库的命令行代码：
+echo "# lrb_project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/LiRuibin572/lrb_project.git
+git push -u origin main
+
+git remote add github https://github.com/LiRuibin572/lrb_project.git
+
+
+
+
+
+git remote add origin https://github.com/LiRuibin572/lrb_project.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+
+# 如果本地还没有配置这个 Gitee 远程仓库，先执行
+git remote add origin https://gitee.com/code_yunbin/lrb_project.git
+git branch -M main
+git push -u origin main
+
+# 用下面这组命令上传lrb_resume_material.md文件：
+git status
+git add lrb_resume_material.md
+git commit -m "update resume material"
+git remote -v
+git push origin main
+
+# 如果 origin 已经存在但不是这个地址，用：
+git remote set-url origin https://gitee.com/code_yunbin/lrb_project.git
+git push -u origin main
+
+
